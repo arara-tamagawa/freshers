@@ -1,0 +1,21 @@
+body >div> label >span{
+    color:#ffffff;
+    background-color: #4169e1;
+    padding:15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+    
+#updatebox{
+    display: none;
+}
+    
+body > div > div{    
+    height: 0; 
+    overflow: hidden;
+}
+    
+body > div >input:checked~div{    
+    height: auto;
+}
+    
